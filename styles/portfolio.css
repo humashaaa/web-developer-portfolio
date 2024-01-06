@@ -1,0 +1,48 @@
+/* google er link copy korar sathe style must copy korte hobe */
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/* website e jei color ta onek beshi use hoise oita ke primary color bole */
+.text-primary{
+    color: #FD6E0A;
+}
+.button-primary{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    color: white;
+    /* width: 79px;
+    height: 29px; */
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    
+}
+/* nav related styles */
+nav{
+    display: flex;
+    /* dui side e shoman content neyar jonno justify content in between ba space around dite hobe */
+    justify-content: space-between;
+    /* lekha ek borabor neyar jonno align item center */
+    align-items: center;
+}
+.nav-title{
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
