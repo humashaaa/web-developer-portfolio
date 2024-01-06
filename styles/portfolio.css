@@ -26,6 +26,7 @@ nav{
     justify-content: space-between;
     /* lekha ek borabor neyar jonno align item center */
     align-items: center;
+    margin: 0px 200px;
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -45,4 +46,17 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 330px 30px 330px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
+
 }
